@@ -10,7 +10,7 @@ spec:
         - key: APP_HOME_NAME
           value: "ropdf"
         - key: APP_HOME_DESCRIPTION
-          value: "Your locally hosted one-stop-shop for all your PDF needs."
+          value: "Transforma PDFuri online. Pentru iubitorii de PDF."
         - key: APP_NAVBAR_NAME
           value: "ropdf"
         - key: ALLOW_GOOGLE_VISIBILITY
@@ -20,7 +20,7 @@ spec:
         - key: APP_LOCALE
           value: "ro_RO"
         - key: TESSERACT_LANGS
-          value: "ro"   
+          value: "eng"   
       routes:
         - path: /
       http_port: 8080
