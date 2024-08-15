@@ -3,24 +3,24 @@ spec:
   services:
     - name: stirling-pdf
       git:
-        branch: digitalOcean
-        repo_clone_url: https://github.com/Stirling-Tools/Stirling-PDF.git
+        branch: master
+        repo_clone_url: https://github.com/magheralex/StirlingPDF.git
       dockerfile_path: Dockerfile2
       envs:
         - key: APP_HOME_NAME
-          value: "Stirling PDF"
+          value: "ropdf"
         - key: APP_HOME_DESCRIPTION
           value: "Your locally hosted one-stop-shop for all your PDF needs."
         - key: APP_NAVBAR_NAME
-          value: "Stirling PDF"
+          value: "ropdf"
         - key: ALLOW_GOOGLE_VISIBILITY
-          value: "false"
+          value: "true"
         - key: APP_ROOT_PATH
           value: "/"
         - key: APP_LOCALE
-          value: "en_GB"
+          value: "ro_RO"
         - key: TESSERACT_LANGS
-          value: "eng"   
+          value: "ro"   
       routes:
         - path: /
       http_port: 8080
