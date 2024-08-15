@@ -18,7 +18,7 @@ spec:
         - key: APP_ROOT_PATH
           value: "/"
         - key: APP_LOCALE
-          value: "ro_RO"
+          value: "ro-RO"
         - key: TESSERACT_LANGS
           value: "eng"   
       routes:
