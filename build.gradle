@@ -84,7 +84,7 @@ dependencies {
     implementation 'org.apache.xmlgraphics:batik-all:1.17'
 
     // TwelveMonkeys
-    implementation 'com.twelvemonkeys.imageio:imageio-batik:3.10.1'
+    implementation 'com.twelvemonkeys.imageio:imageio-batik:3.12.0'
     implementation 'com.twelvemonkeys.imageio:imageio-bmp:3.10.1'
     // implementation 'com.twelvemonkeys.imageio:imageio-hdr:3.10.1'
     // implementation 'com.twelvemonkeys.imageio:imageio-icns:3.10.1'
